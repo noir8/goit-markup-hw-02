@@ -35,23 +35,20 @@ body {
 	line-height: 16px;
 	letter-spacing: 0.02em;
 	text-decoration: none;
-
 	color: #212121;
 }
-.site-nav a:visited {
-	color: #212121;
-}
-.site-nav a:hover {
+.site-nav .link.current {
 	color: #2196f3;
 }
+
 .head-contacts a {
 	font-family: roboto, sans-serif;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 16px;
 	letter-spacing: 0.02em;
-
 	color: #757575;
+	text-decoration: none;
 }
 .head-contacts a:visited {
 	color: #757575;
@@ -216,15 +213,12 @@ body {
 .footer-contacts span {
 	width: 231px;
 	height: 21px;
-
 	font-family: roboto, sans-serif;
-
 	font-size: 14px;
 	line-height: 24px;
-
 	letter-spacing: 0.03em;
-
 	color: #ffffff;
+	text-decoration: none;
 }
 .footer-contacts a {
 	width: 231px;
@@ -234,13 +228,14 @@ body {
 	font-size: 14px;
 	line-height: 24px;
 	letter-spacing: 0.03em;
+	text-decoration: none;
 	color: rgba(255, 255, 255, 0.6);
 }
 .top-navigation button {
+	font-family: roboto, sans-serif;
+
 	background: #f5f4fa;
 	border-radius: 4px;
-
-	font-family: roboto, sans-serif;
 
 	font-weight: 500;
 	font-size: 16px;
@@ -280,7 +275,7 @@ body {
 
 	color: #757575;
 }
-.portfolio-products img:hover {
+.portfolio-products a:hover {
 	width: 370px;
 	height: 294px;
 
