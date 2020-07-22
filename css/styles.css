@@ -86,12 +86,32 @@ body {
 
 	color: #ffffff;
 }
+
+.site-overlay button:hover {
+	color: #212121;
+}
 .site-features img {
 	width: 270px;
 	height: 120px;
 
 	background: #f5f4fa;
 	border-radius: 4px;
+}
+.portfolio-overlay button {
+	background: #2196f3;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	font-family: roboto, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.06em;
+
+	color: #ffffff;
+}
+.portfolio-overlay button:hover {
+	color: #212121;
 }
 .site-features h3 {
 	font-family: roboto, sans-serif;
@@ -219,6 +239,7 @@ body {
 	letter-spacing: 0.03em;
 	color: #ffffff;
 	text-decoration: none;
+	font-style: normal;
 }
 .footer-contacts a {
 	width: 231px;
@@ -229,6 +250,7 @@ body {
 	line-height: 24px;
 	letter-spacing: 0.03em;
 	text-decoration: none;
+	font-style: normal;
 	color: rgba(255, 255, 255, 0.6);
 }
 .top-navigation button {
@@ -281,7 +303,7 @@ body {
 
 	background: rgba(33, 150, 243, 0.9);
 }
-.portfolio-products span {
+.portfolio-products p + p {
 	width: 322px;
 	height: 168px;
 
@@ -290,6 +312,21 @@ body {
 	line-height: 28px;
 
 	letter-spacing: 0.03em;
+
+	color: #ffffff;
+}
+.join-us {
+	position: absolute;
+	width: 145px;
+	height: 16px;
+
+	font-family: roboto, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
 
 	color: #ffffff;
 }
