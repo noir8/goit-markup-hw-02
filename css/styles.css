@@ -97,7 +97,7 @@ body {
 	background: #f5f4fa;
 	border-radius: 4px;
 }
-.portfolio-overlay button {
+.portfolio-overlay a {
 	background: #2196f3;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
@@ -110,7 +110,7 @@ body {
 
 	color: #ffffff;
 }
-.portfolio-overlay button:hover {
+.portfolio-overlay a:hover {
 	color: #212121;
 }
 .site-features h3 {
