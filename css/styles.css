@@ -107,11 +107,11 @@ body {
 	font-size: 16px;
 	line-height: 30px;
 	letter-spacing: 0.06em;
-
-	color: #ffffff;
+	text-decoration: none;
+	color: #212121;
 }
 .portfolio-overlay a:hover {
-	color: #212121;
+	color: #ffffff;
 }
 .site-features h3 {
 	font-family: roboto, sans-serif;
@@ -286,13 +286,26 @@ body {
 	text-decoration: none;
 	color: #212121;
 }
-.portfolio-products p {
+.portfolio-products h2 {
 	width: 322px;
-	height: 30px;
 
+	font-family: roboto, sans-serif;
+
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 36px;
+
+	letter-spacing: 0.06em;
+
+	color: #212121;
+}
+.portfolio-products p {
+	height: 30px;
 	font-family: roboto, sans-serif;
 	font-size: 16px;
 	line-height: 30px;
+	font-style: normal;
+	font-weight: normal;
 	letter-spacing: 0.03em;
 
 	color: #757575;
